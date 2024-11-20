@@ -1,5 +1,3 @@
-
-
 <a id="readme-top"></a>
 
 
@@ -8,32 +6,56 @@
 https://github.com/user-attachments/assets/901dd5f5-8022-4d5f-8ac7-d1c9b0e93efd
 
 
+
 ## Index: 
 - [About The Project](#About-The-Project)
-- [Key Features](#Key-Features)
-- [Deployment](#Deployment)
+- [Requirements](#Requirements)
+- [Steps to Implement](#Steps-to-Implement)
+
+
 
 
 
   
 ## About The Project
-This AI-powered crop prediction application helps farmers select the most suitable crops based on environmental factors like nitrogen, phosphorus, potassium, temperature, humidity, soil pH, and rainfall. After testing various models, RandomForestClassifier was chosen for its accuracy. Built with Streamlit, the app provides a user-friendly interface where users can input environmental data to receive crop recommendations or, if none are suitable, a message indicating no match. This project demonstrates the practical application of machine learning in supporting agricultural decision-making.
+TThis face-tracing application combines computer vision and robotics to dynamically track a person's face. It utilizes a webcam to detect and follow facial movements in real-time, adjusting the position of two servo motors mounted on an Arduino board. The motors, controlling the X-axis and Y-axis, align the camera with the face. By leveraging OpenCV for face detection and Mediapipe for precise movement tracking, the application ensures seamless face alignment. Using the Firmata protocol, the servo motors receive angle adjustments from Python code based on detected face coordinates.
 
-# Key Features:
-* Real-time Crop Prediction: The application uses input data to recommend optimal crops based on current environmental conditions, helping users make informed decisions in real time.
-* Customizable Input Parameters: Built with a focus on agriculture, it uses a tailored set of parameters, including nitrogen, phosphorus, potassium, temperature, humidity, soil pH, and rainfall, for precise crop recommendations.
-* Model Training with Machine Learning Algorithms: Multiple models were tested (logistic regression, DecisionTreeClassifier, and RandomForestClassifier), with RandomForestClassifier ultimately chosen for its high accuracy.
-* Deployment with Streamlit: The application is deployed using Streamlit, offering an interactive and user-friendly interface for seamless user engagement and accessibility.
-* Future Expansion: Plans to refine the model further and potentially include additional environmental factors for even more accurate and broad crop prediction capabilities.:smile:
+This project demonstrates the integration of computer vision and robotics, with applications in security, surveillance, and military systems. Its ability to continuously track and focus on a face showcases the potential of such systems in enhancing interactive technologies for real-world use.
 
-## Deployment
+# Requirements:
+1. Hardware:
+      * Arduino board (e.g., Uno or Mega)
+      * 2 servo motors
+      * USB cable for Arduino
+      * Jumper wires and breadboard
+      * Camera (e.g., a webcam)
+2. Software:
+     * Python
+     * Arduino IDE:smile:
 
-To deploy this project run
+
+# Steps to Implement: 
+
+1. Setup Arduino and Servo Motors:
+     * Connect the X-axis servo to one pin (e.g., Pin 9) and the Y-axis servo to another pin (e.g., Pin 10).
+     * Power the servos through the Arduino board.
+  
+2. Arduino Code:
+   Use the Firmata protocol for communication. Upload the "StandardFirmata" sketch from the Arduino IDE:
+     * Open Arduino IDE > File > Examples > Firmata > StandardFirmata.
+     * Select your board and port.
+     * Upload the code.
+  
+3.  Python Code:
+     * Use OpenCV for detecting faces and Mediapipe for tracking face movement.
+     * Control servo angles based on face position.
+    
+ 
+Required libraries to run this project r
 ```bash
-pip install streamlit
+pip install cvzone numpy mediapipe pyfirmata opencv-python
+
 ```
-```bash
-  streamlit run app.py
-```
+
 
 <p align="center">(<a href="#readme-top">back to top</a>)</p>
