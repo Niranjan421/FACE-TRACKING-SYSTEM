@@ -32,7 +32,7 @@ This project demonstrates the integration of computer vision and robotics, with 
       * Camera (e.g., a webcam)
 2. Software:
      * Python
-     * Arduino IDE:smile:
+     * Arduino IDE
 
 
 # Steps to Implement: 
@@ -65,7 +65,7 @@ pip install cvzone numpy mediapipe pyfirmata opencv-python
 2. Surveillance:
     * Face tracking for camera systems to ensure the subject remains centered.
 3. Robotics:
-    * Building human-interactive robots that follow users.
+    * Building human-interactive robots that follow users. :smile:
    
 
 <p align="center">(<a href="#readme-top">back to top</a>)</p>
