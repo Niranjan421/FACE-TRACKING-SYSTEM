@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/901dd5f5-8022-4d5f-8ac7-d1c9b0e93efd
 
   
 ## About The Project
-TThis face-tracing application combines computer vision and robotics to dynamically track a person's face. It utilizes a webcam to detect and follow facial movements in real-time, adjusting the position of two servo motors mounted on an Arduino board. The motors, controlling the X-axis and Y-axis, align the camera with the face. By leveraging OpenCV for face detection and Mediapipe for precise movement tracking, the application ensures seamless face alignment. Using the Firmata protocol, the servo motors receive angle adjustments from Python code based on detected face coordinates.
+This face-tracing application combines computer vision and robotics to dynamically track a person's face. It utilizes a webcam to detect and follow facial movements in real-time, adjusting the position of two servo motors mounted on an Arduino board. The motors, controlling the X-axis and Y-axis, align the camera with the face. By leveraging OpenCV for face detection and Mediapipe for precise movement tracking, the application ensures seamless face alignment. Using the Firmata protocol, the servo motors receive angle adjustments from Python code based on detected face coordinates.
 
 This project demonstrates the integration of computer vision and robotics, with applications in security, surveillance, and military systems. Its ability to continuously track and focus on a face showcases the potential of such systems in enhancing interactive technologies for real-world use.
 
