@@ -11,6 +11,7 @@ https://github.com/user-attachments/assets/901dd5f5-8022-4d5f-8ac7-d1c9b0e93efd
 - [About The Project](#About-The-Project)
 - [Requirements](#Requirements)
 - [Steps to Implement](#Steps-to-Implement)
+- [Applications](#Applications)
 
 
 
@@ -57,5 +58,14 @@ pip install cvzone numpy mediapipe pyfirmata opencv-python
 
 ```
 
+# Applications:
+1. Military and Security:
+    * Automated tracking systems for monitoring intruders or potential threats.
+    * Integration with weapon systems for precise targeting.
+2. Surveillance:
+    * Face tracking for camera systems to ensure the subject remains centered.
+3. Robotics:
+    * Building human-interactive robots that follow users.
+   
 
 <p align="center">(<a href="#readme-top">back to top</a>)</p>
