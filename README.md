@@ -42,7 +42,7 @@ This project demonstrates the integration of computer vision and robotics, with 
      * Power the servos through the Arduino board.
   
 2. Arduino Code:
-   Use the Firmata protocol for communication. Upload the "StandardFirmata" sketch from the Arduino IDE:
+    Use the Firmata protocol for communication. Upload the "StandardFirmata" sketch from the Arduino IDE:
      * Open Arduino IDE > File > Examples > Firmata > StandardFirmata.
      * Select your board and port.
      * Upload the code.
