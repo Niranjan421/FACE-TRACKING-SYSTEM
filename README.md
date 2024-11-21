@@ -52,7 +52,7 @@ This project demonstrates the integration of computer vision and robotics, with 
      * Control servo angles based on face position.
     
  
-Required libraries to run this project r
+Required libraries to run this project:
 ```bash
 pip install cvzone numpy mediapipe pyfirmata opencv-python
 
